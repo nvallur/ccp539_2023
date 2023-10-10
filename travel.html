@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to the reset file -->
+	<link rel="stylesheet" href="css/reset.css">
+	<!-- Link to the stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
     <title>Travel</title>
 </head>
 <body>
-    <a href = "">Skip to Main Content</a>
-    <nav>
-        <ul>
-            <li><a href = "index.html">Pets</a></li>
-            <li><a href = "recipes.html">Recipes</a></li>
-            <li><a href = "travel.html">Travel</a></li>
-        </ul>
-    </nav>
+    <div class = "skip" tabindex = "0"> <a href = "#main">Skip to Main Content</a></div>
+    <header>
+        <nav>
+            <ul>
+                <li tabindex = "0"><a href = "index.html">Pets</a></li>
+                <li tabindex = "0"><a href = "recipes.html">Recipes</a></li>
+                <li class = "current" tabindex = "0"><a href = "travel.html">Travel</a></li>
+            </ul>
+        </nav>
+    </header>
 
 
-    <main>
+    <main id = "main">
         <div>
             <h2>Yellowstone</h2>
 
